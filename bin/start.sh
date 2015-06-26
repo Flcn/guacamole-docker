@@ -205,6 +205,7 @@ fi
 # Update config file
 set_property "guacd-hostname" "$GUACD_PORT_4822_TCP_ADDR"
 set_property "guacd-port"     "$GUACD_PORT_4822_TCP_PORT"
+set_property "enable-http-auth" "true" 
 
 #
 # Point to associated PostgreSQL
